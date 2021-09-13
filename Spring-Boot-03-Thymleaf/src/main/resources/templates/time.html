@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title> Tell Time </title>
+        <link th:href="@{css/demo.css}" rel="stylesheet" />
+    </head>
+    <body>
+        <p th:text="'Time on the server is ' + ${time}" class="funny"></p>
+    </body>
+</html>
